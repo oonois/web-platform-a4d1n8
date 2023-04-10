@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  
+}
+input {
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.contenidor {
+  
+  background-color: black;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+}
+.fila{
+  display: flex;
+}
+.casella {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(24, 23, 23);
+  margin: 2px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.activa{
+  background-color: white;
+}
+.of {
+  display: none;
+}
+
+.on {
+  display: block;
+}
+.vertOnOff {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  color: white;
+}
